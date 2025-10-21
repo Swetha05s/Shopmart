@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopCart - Your Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 class="logo">ShopCart</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html" class="active">🛒 Cart (<span id="cartCount">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page">
+    <h2>Your Shopping Cart</h2>
+    <div id="cartItems" class="cart-container"></div>
+
+    <div class="cart-summary">
+      <h3>Total: ₹<span id="totalPrice">0</span></h3>
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 ShopCart. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
